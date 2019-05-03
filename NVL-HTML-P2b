@@ -1,1 +1,10 @@
-<img src=
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+<img src="img/monkey.jpg" width="500px" height="500px" align="center" title="Monkey">
+</body>
+</html>
