@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>	
+<form method="post" action="miservidor.php">
+     <div>
+       <label for="cp">Código postal</label>
+       <input id="cp" type="text" name="codp" minlength="5" maxlength="5">
+     </div>
+     <br>
+     <div>
+       <label for="sp">Satisfación con el producto:</label>
+       	<input id="sp" type="number" name="satis" min="1" max="5" placeholder="1">
+     </div>
+     <br>
+     <div>
+       <label for="mail">Email:</label>
+       <input id="mail" type="mail" name="eadd">
+     </div>
+     <br>
+     <div>
+    	<p for="opinion">Puntos positivos del producto</p>
+        <textarea id="opinion" rows="5" cols="60" maxlength="500"></textarea>
+    </div>
+    <div>
+    	<p for="opinion">Puntos negativos del producto</p>
+        <textarea id="opinion" rows="5" cols="60" maxlength="500"></textarea>
+    </div>
+    <br>
+    <div>
+       <label for="carac">Comodidad</label>
+       <select id="carac">
+         <option value="EX">Excelente</option>
+         <option value="BU">Buena</option>
+         <option value="RE">Regular</option>
+         <option value="PE">Pésima</option>
+       </select>
+       <br>
+        <label for="carac">Calidad</label>
+       <select id="carac">
+         <option value="EX">Excelente</option>
+         <option value="BU">Buena</option>
+         <option value="RE">Regular</option>
+         <option value="PE">Pésima</option>
+       </select>
+       <br>
+        <label for="carac">Utilidad</label>
+       <select id="carac">
+         <option value="EX">Excelente</option>
+         <option value="BU">Buena</option>
+         <option value="RE">Regular</option>
+         <option value="PE">Pésima</option>
+       </select>
+   </div>
+   <br>
+   <div>
+   	<label for="carac">Comodidad</label>
+   		<input type="radio" name="cT">Excelente
+   		<input type="radio" name="cT">Buena
+   		<input type="radio" name="cT">Regular
+   		<input type="radio" name="cT">Pésima
+   		<br>
+ 	<label for="carac">Calidad</label>
+   		<input type="radio" name="cT1">Excelente
+   		<input type="radio" name="cT1">Buena
+   		<input type="radio" name="cT1">Regular
+   		<input type="radio" name="cT1">Pésima 
+   		<br> 
+	<label for="carac">Utilidad</label>
+   		<input type="radio" name="cT2">Excelente
+   		<input type="radio" name="cT2">Buena
+   		<input type="radio" name="cT2">Regular
+   		<input type="radio" name="cT2">Pésima		
+   </div>
+   <br>
+   <input type="button" value="Enviar">
+</form>
+</body>
+</html>
