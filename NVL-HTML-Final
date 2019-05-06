@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cuidado de Mascotas</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<h1 align="center">Cuidado de Mascotas</h1>
+<p align="center">
+	<a href="file:///C:/Users/Administrador/Desktop/upF1.html">Nuestros Servicios</a> 
+	<a href="file:///C:/Users/Administrador/Desktop/upF2.html">Nuestros Precios</a> 
+	<a href="file:///C:/Users/Administrador/Desktop/upF3.html">Contactanos</a>
+</p>
+<h2>Quienes somos</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor accumsan sapien, vel ultricies lacus volutpat vel. Vestibulum laoreet ornare enim sed sodales. Sed sodales diam id pulvinar blandit. Duis dapibus eu felis in auctor. Vestibulum et interdum massa, vel venenatis nisl. Phasellus accumsan libero ut nibh viverra blandit. Nunc finibus blandit sapien eu scelerisque. Nunc quis posuere sem, in feugiat risus. Aenean vel dui feugiat, vehicula diam sed, condimentum elit. In hac habitasse platea dictumst. Sed consequat, purus vel dapibus dapibus, risus quam vulputate libero, eu luctus est sapien pretium nulla. In posuere felis odio, nec faucibus purus scelerisque ut. Nulla venenatis sodales pulvinar. Donec sodales justo id justo ornare mollis. Pellentesque quis arcu quis libero viverra pretium. Suspendisse pulvinar lacus sed dui semper, id molestie urna congue. </p>
+	<p>Nuestros colaboradores</p>
+	<ul>
+	    <li><a href="#" target="_blank">Lorem Ipsum</a></li>
+	    <li><a href="#" target="_blank">Lorem Ipsum</a></li>
+	    <li><a href="#" target="_blank">Lorem Ipsum</a></li>
+	    <li><a href="#" target="_blank">Lorem Ipsum</a></li>
+	</ul>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nuestros Servicios</title>
+</head>
+<body>
+<h1 align="center">Cuidado de Mascotas</h1>
+<p align="center">
+	<a href="file:///C:/Users/Administrador/Desktop/upF.html">Quienes Somos</a> 
+	<a href="file:///C:/Users/Administrador/Desktop/upF2.html">Nuestros Precios</a> 
+	<a href="file:///C:/Users/Administrador/Desktop/upF3.html">Contactanos</a>
+</p>
+<h2>Nuestros Servicios</h2>
+	<h2>Paseamos tus mascotas</h2>
+	<img src="https://misanimales.com/wp-content/uploads/2015/08/pasear-a-tu-perro.jpg" width="150px"height="150px" alt="Persona paseando a un perro" title="Paseamos a tus mascotas">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor accumsan sapien, vel ultricies lacus volutpat vel. Vestibulum laoreet ornare enim sed sodales. Sed sodales diam id pulvinar blandit</p>
+	<h2>Jugamos con tus mascotas</h2>
+	<img src="https://www.hogarmania.com/archivos/201703/mascotas-perros-importancia-juego-668x400x80xX.jpg" width="150px" height="150px" alt="Persona jugando con un perro" title="Jugamos con tus mascotas">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor accumsan sapien, vel ultricies lacus volutpat vel. Vestibulum laoreet ornare enim sed sodales. Sed sodales diam id pulvinar blandit</p>
+	<h2>Cuidados básicos</h2>
+	<img src="https://www.aboutespanol.com/thmb/OFbsTDj-LY4NbWOd2YFxY-S9zCA=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/JackRussellconplatodecomida-5ae37b9dff1b78003648113d.jpg" width="150px" height="150px" alt="Perro al lado de dos cuencos con comida y agua" title="Cuidados básicos">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor accumsan sapien, vel ultricies lacus volutpat vel. Vestibulum laoreet ornare enim sed sodales. Sed sodales diam id pulvinar blandit</p>
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nuestros Precios</title>
+</head>
+<body>
+<h1 align="center">Cuidado de Mascotas</h1>
+<p align="center">
+	<a href="file:///C:/Users/Administrador/Desktop/upF.html">Quienes Somos</a>
+	<a href="file:///C:/Users/Administrador/Desktop/upF1.html">Nuestros Servicios</a>  
+	<a href="file:///C:/Users/Administrador/Desktop/upF3.html">Contactanos</a>
+</p>
+<h2>Nuestros precios</h2>
+		<form action="https://formspree.io/drojosu@gmail.com" method="POST" />
+		<label>Si eres cliente registrado no olvides añadir tu ID para tener un 10% de descuento.</label>
+		<input type="text" name=""  maxlength="9" placeholder="Danos tu ID">
+		<br><br>
+		 <div>
+		 <label>Pack completo 90€+10€ a partir de las 3 horas</label>
+			<input type="checkbox" name="idC">
+		 </div>
+				<br><br>
+		<div>
+			<label><u>Solo un servicio</u></label>
+		<br>
+		 <label>Pasear a tus mascotas
+		  <input type="radio" name="1s">
+		 </label>
+		 <br>
+		<div>
+		 <label>Jugar con tus mascotas
+		  <input type="radio" name="1s">
+		 </label>
+		 <br>
+		 <div>
+		 <label>Cuidados básicos
+		  <input type="radio" name="1s">
+		 </label>
+		 </div>
+		 <br>
+		 <div>
+		 <label>¿Cuantas mascotas vas a traernos(min 1/ max 10)</label>
+		 <br>
+		 1<input type="range" name="" maxlength="10">10
+		</div>
+		<br>
+		<div>
+		<label>Dinos de que color es una de tus mascotas y si coincide con el color que nosotros hemos elegido tendrás un 15% de descuento.</label>
+		<br>
+		<input type="color">
+		</div>
+		<br>
+		<div>
+		<label>¿Qué día y hora quieres contratar nuestros servicios?</label>
+		<br>
+		<input type="datetime-local" name="">
+		</div>
+		 <br><br>
+		 <input type="button" value="Enviar">	
+		 </form>
+</body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contactanos</title>
+</head>
+<body>
+<h1 align="center">Cuidado de Mascotas</h1>
+<p align="center">
+	<a href="file:///C:/Users/Administrador/Desktop/upF.html">Quienes Somos</a>
+	<a href="file:///C:/Users/Administrador/Desktop/upF1.html">Nuestros Servicios</a> 
+	<a href="file:///C:/Users/Administrador/Desktop/upF2.html">Nuestros Precios</a> 
+</p>
+<h2>Contactanos</h2>
+	<p>Cuentanos que podemos mejorar,dinos si necesitas algo más o haz una reserva, te dejamos nuestro mail a un <a href="mailto:#">click.</a></p>
+	<p>Puedes contactarnos por teléfono para una respuesta inmediata,te lo dejamos a un <a href="tel:#">click</a>también</p>
+	<p>O puedes dejarnos tus datos y te contactamos nosotros.</p>
+		<form action="/action_page.php">
+		<div></div>
+		<label>Email:</label>
+			<input type="mail" name="" placeholder="alguien@example.com">
+		</div>
+			<br><br>
+		<div></div>
+		<label>Dejanos un número de contacto</label>
+			<input type="text" maxlength="9" placeholder="913711497">
+		</div>
+		<br>
+		<p>Si quieres dejar alguna duda aquí puedes, no olvides dejarnos un mail para poder responderte.</p>
+		<textarea maxlength="200" rows="15" cols="50"></textarea>
+		<br>
+		<input type="button" value="Envia tus dudas">
+		</form>
+	<p><strong>Ven a vernos y conocenos</strong></p>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12149.223213246385!2d-3.7140207302246093!3d40.424227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422862de2dbd29%3A0x3f05767d1adc834a!2sNaturanimaL!5e0!3m2!1ses!2ses!4v1557169904198!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0" allowfullscreen align="center"></iframe>
+</body>
+</html>
