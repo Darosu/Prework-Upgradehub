@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		h1{
+			text-align: center;
+			font-family: fantasy;
+		}
+		h2{
+			font-family: monospace;
+			text-align: center;
+		}
+		ul{
+			text-align: center;
+			list-style-position: inside;
+
+		}
+		ol{
+			text-align: center;
+			list-style-position: inside;
+		}
+		li{
+			text-align: center;
+		}
+		textarea{
+			width: 550px;
+			height: 150px;
+		}
+				[data-con]{
+					font-weight: bold;
+				}
+				[data-cantidad]{
+								font-family: arial;
+								font-variant: small-caps;
+				}
+				[data-vegetal]{
+								text-decoration: underline;
+				}
+				[data-corral]{
+								font-style: italic;
+				}
+				[data-prep]{
+								font-family: arial;
+								background-color: purple;
+								margin-top: 5px;
+								font-weight: bold;
+				}
+		#formulario{
+			width: 100%;
+			height:100%;
+			margin: 0 auto;
+			text-align: center;
+			font-variant: small-caps;
+			font-family: arial;
+			font-weight: bold;
+		}
+			#i1{
+				margin-left: 35px;
+				margin-bottom: 5px;
+			}
+			#i2{
+				margin-bottom: 5px;
+			}
+		.v{
+			float: left;
+			margin-left: 200px;
+			margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+<h1>Receta Tortilla de Patatas</h1>
+	<h2>Ingredientes:</h2>
+ <ul>
+ 	<li data-cantidad="150ml" data-con>Aceite de Oliva Virgen Extra 150ml</li>
+ 	<li data-cantidad="0.5g" data-con>Sal una cucharadita</li>
+ 	<li data-cantidad="5" data-vegetal>5 Patatas</li>
+ 	<li data-cantidad="1" data-vegetal>1 Cebolla</li>
+ 	<li data-cantidad="6" data-corral>6 Huevos</li>
+ </ul>
+ 	<h2>Modo de preparación</h2>
+ <ol>
+ 	<li data-prep>Partir las patatas y la cebolla</li>
+ 	<li data-prep>Preparar una sarten con 150ml de aceite para poner la patata y la cebolla a freir</li>
+ 	<li data-prep>Al cabo de 20 minutos pon un poco de sal</li>
+ 	<li data-prep>Bate los 6 huevos pero no mucho</li>
+ 	<li data-prep>Retira la patata y la cebolla de la sarte y dejala enfriar si quieres una tortilla poco cuajada pero si la quieres bien cuajada añadela a los huevos sin dejarla enfriar, eso si no en ambos casos escurre los ingredientes bien.</li>
+ 	<li data-prep>Con todos los ingredientes juntos añade más sal y remuevelo para juntar todos los sabores, dejalo reposar 2 minutos y mientras prepara una sartén con un poco de aceite.
+ 	</li>
+ 	<li data-prep>Tras dejar reposar la mezcla añadela a la sarten anteriormente nombrada y preparate para la parte más importante <strong>DAR LA VUELTA A LA TORTILLA</strong>, has nacido para esto solo tienes que estar confiante como diría CR7, coge un plato ponlo encima de la sartén a modo de tapadera, levanta la sartén y gira tus muñecas las dos a la vez en la misma dirección y no hay fallo, devuelve la tortilla a la sartén y cocinala a tú gusto. </li>
+ </ol>
+<div>
+<form action="/action_page.php">
+<div id="formulario">
+<div>
+	<label>Valora la receta del 0 al 10</label>	
+	<input type="number" name="q" min="0" max="10" id="i1">
+</div>
+<div>
+	<label>Valora la explicación del 0 al 10</label>	
+	<input type="number" name="q" min="0" max="10" id="i2">
+</div>
+
+<div>
+	<label>Si nos has dado una mala nota o quieres dejarnos algún comentario escribenos aquí</label>
+	<br>	
+	<textarea></textarea>
+</div>
+<br>
+<div>
+	<label>Dejanos tú mail para poder responderte</label>
+	<input type="mail" name="em" placeholder="alguien@example.com">
+</div>
+<br>
+<input type="button" name="send" value="Enviar">
+</div>
+</form>
+<div class="v">
+	<img src="https://www.divinacocina.es/wp-content/uploads/tortilla-de-patatas-porcion-cortada.jpg" alt="Tortilla de patatas partida" title="Tortilla de patatas">
+</div>
+<div class="v">
+	<iframe width="630" height="630" src="https://www.youtube.com/embed/hOCiYOvHkxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</body>
+</html>
