@@ -1,0 +1,101 @@
+------------------HTML CON LINK A CSS-------------------
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<ul>
+	<li>David</li>
+	<li>Eric</li>
+	<li>Rubén</li>
+	<li>Gonzalo</li>
+	<li>Jorge</li>
+	<li>Mauro</li>
+	<li>Sergio</li>
+	<li>Victor</li>
+	<li>Leo</li>
+</ul>
+</body>
+</html>
+------------------CSS----------------
+
+ul{
+	background-color:purple;
+	color:orange;
+}
+li{
+	font-family: arial;
+	font-size: 25px;
+	text-decoration: underline overline;
+}
+
+-----------------------------HTML CON CSS EN EL HEAD----------------------
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+ul{
+	background-color:#ff5733;
+	color:#ddd8d7;
+}
+li{
+	font-family: arial;
+	font-size: 25px;
+	text-decoration: underline overline;
+}
+h1{
+	font-family:"Helvetica";
+	text-align: center;
+}	
+img{
+	border-radius: 50px;
+}
+	</style>
+
+</head>
+<body>
+<h1>Lista de nombres</h1>
+<ul>
+	<li>David</li>
+	<li>Eric</li>
+	<li>Rubén</li>
+	<li>Gonzalo</li>
+	<li>Jorge</li>
+	<li>Mauro</li>
+	<li>Sergio</li>
+	<li>Victor</li>
+	<li>Leo</li>
+</ul>
+<img src="https://pbs.twimg.com/media/D5tiNYlWwAA5-Or.jpg:large">
+</body>
+</html>
+
+----------------------HTML CON CSS INLINE----------------------------
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+<h1 style="text-decoration: underline overline dotted blue; text-align: center; font-family: monospace;">Lista de nombres</h1>
+<ul style="color:#1a4edc;background-color:black; ">
+	<li style="font-family:courier; font-size: 15px; text-decoration:bold; ">David</li>
+	<li style="font-family:courier; font-size: 15px; text-decoration:bold; ">Eric</li>
+	<li style="font-family:courier; font-size: 15px; text-decoration:bold; ">Rubén</li>
+	<li style="font-family:courier; font-size: 15px; text-decoration:bold; ">Gonzalo</li>
+	<li style="font-family:courier; font-size: 15px; text-decoration:bold; ">Jorge</li>
+	<li style="font-family:courier; font-size: 15px; text-decoration:bold; ">Mauro</li>
+	<li style="font-family:courier; font-size: 15px; text-decoration:bold; ">Sergio</li>
+	<li style="font-family:courier; font-size: 15px; text-decoration:bold; ">Victor</li>
+	<li style="font-family:courier; font-size: 15px; text-decoration:bold; ">Leo</li>
+</ul>
+<img src="https://pbs.twimg.com/media/D5tiNYlWwAA5-Or.jpg:large" style="border-radius: 75px; border: 5px solid black;">
+</body>
+</html>
