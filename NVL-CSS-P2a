@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<ul>
+	<li>David</li>
+	<li>Eric</li>
+	<li>Rubén</li>
+	<li>Gonzalo</li>
+	<li>Jorge</li>
+	<li>Mauro</li>
+	<li>Sergio</li>
+	<li>Victor</li>
+	<li>Leo</li>
+</ul>
+</body>
+</html>
+---------CSS-----------
+ul{
+	background-color:#fabada;
+	color:#000000;
+}
+
