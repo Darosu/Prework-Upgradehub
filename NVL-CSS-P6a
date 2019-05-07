@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		table{
+			border-collapse: collapse;
+			margin: 0 auto;
+		}
+		table, th, td{
+			border: 1px solid black;
+			text-align: center;
+			text-decoration: bold;
+			font-family: arial;
+			font-variant: small-caps;
+			font-size: 15px;
+			font-stretch: condensed;
+			font-style: oblique;
+		}
+		#td1{
+			background-color: white;
+
+		}
+		#td2{
+			background-color:#e6e6e6;
+			
+		}
+		#td3{
+			background-color:#cccccc;
+			
+		}
+		#td4{
+			background-color:#b3b3b3;
+			
+		}
+		#td5{
+			background-color:#999999;
+			
+		}
+		#td6{
+			background-color:#808080;
+			
+		}
+		#td7{
+			background-color:#666666;
+			
+		}
+		#td8{
+			/*No entiendo porque no pilla este color si lo he pasado por un par de generadores de códigos de color y todos me dan el mismo código.*/
+			background-color:#4C4C4C;/
+		}
+		#td9{
+			background-color:#333333;
+			
+		}
+		#td10{
+			background-color:#191919;
+			
+		}
+	</style>
+</head>
+<body>
+<table>
+	<tr>
+		<th>Dureza</th>
+		<th>Mineral</th>
+		<th>Se raya con / raya a</th>
+		<th>Composición química</th>
+	</tr>
+	<tr>
+		<td id="td1">1</td>
+		<td>Cuarzo</td>
+		<td>Se puede rayar fácilmente con la uña</td>
+		<td>Mg3Si4O10(OH)2</td>
+	</tr>
+	<tr>
+		<td id="td2">2</td>
+		<td>Yeso</td>
+		<td>Se puede rayar con la uña con más dificultad </td>
+		<td>CaSO4·2H2O</td>
+	</tr>
+	<tr>
+		<td id="td3">3</td>
+		<td>Calcita</td>
+		<td>Se puede rayar con una moneda de cobre</td>
+		<td>CaCO3</td>
+	</tr>
+	<tr>
+		<td id="td4">4</td>
+		<td>Fluorita</td>
+		<td>Se puede rayar con un cuchillo de acero</td>
+		<td>CaF2</td>
+	</tr>
+	<tr>
+		<td id="td5">5</td>
+		<td>Apacio</td>
+		<td>Se puede rayar difícilmente con un cuchillo</td>
+		<td>Ca5(PO4)3(OH-,Cl-,F-)l </td>
+	</tr>
+	<tr>
+		<td id="td6">6</td>
+		<td>Ortosa</td>
+		<td>Se puede rayar con una lija para el acero</td>
+		<td>KAlSi3O8</td>
+	</tr>
+	<tr>
+		<td id="td7">7</td>
+		<td>Cuarzo</td>
+		<td>Raya el vidrio</td>
+		<td>SiO2</td>
+	</tr>
+	<tr>
+		<td i="td8">8</td>
+		<td>Topacio</td>
+		<td>Rayado por herramientas de carburo de wolframio</td>
+		<td>Al2SiO4(OH-,F-)2</td>
+	</tr>
+	<tr>
+		<td id="td9">9</td>
+		<td>Corindón</td>
+		<td>Rayado por herramientas de carburo de silicio</td>
+		<td>Al2O3</td>
+	</tr>
+	<tr>
+		<td id="td10">10</td>
+		<td>Diamante</td>
+		<td>El material más duro en esta escala (rayado por otro diamante).</td>
+		<td>C</td>
+	</tr>
+</table>
+</body>
+</html>
