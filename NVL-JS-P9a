@@ -1,0 +1,6 @@
+<script type="text/javascript">
+		var a = [0,1,2,"Getafe",4,5];
+		alert (a.length);
+		alert (a[3].length);
+		alert (a[3][2]);
+	</script>
