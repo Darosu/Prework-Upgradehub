@@ -1,0 +1,7 @@
+	<script type="text/javascript">
+		var a = "Amigo";
+		var b = "a";
+		alert (a.toLowerCase());
+		alert (a.replace("A","a"));
+		alert (b+a.slice(1,5));
+	</script>
