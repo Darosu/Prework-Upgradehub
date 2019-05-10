@@ -1,0 +1,5 @@
+var nombreyap = "David Rojo Suarez";
+var edad = 22;
+var dias= ["Lunes","Martes","Miercoles","Jueves","Viernes"];
+var grav= "9,80665 m/s";
+var num=[ 1,3,5];
