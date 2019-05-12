@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var a = "Lunes,Martes,Miercoles,Jueves,Viernes,Sabado,Domingo";
+	  var b = "Madrid.Sevilla.Barcelona.Valencia.Zaragoza.Bilbao.Donosti";
+		a = a.split(",");
+		b = b.split(".");
+		var uno = a[0]+" "+b[0]+"//";
+		var dos = a[1]+" "+b[1]+"//";
+		var tres = a[2]+" "+b[2]+"//";
+		var cuatro = a[3]+" "+b[3]+"//";
+		var cinco = a[4]+" "+b[4]+"//";
+		var seis = a[5]+" "+b[5]+"//";
+		var siete = a[6]+" "+b[6]+".";
+		alert(uno+dos+tres+cuatro+cinco+seis+siete);
+	</script>
+</head>
+<body>
+</body>
+</html> 
